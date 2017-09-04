@@ -1,0 +1,10 @@
+role_id,permission
+1,user.read
+1,user.add
+1,user.edit
+1,user.delete
+2,user.read
+2,user.add
+2,user.edit
+1,role.list
+1,role.edit

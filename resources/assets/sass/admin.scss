@@ -1,0 +1,80 @@
+.user-panel {
+    &.no-avatar .info {
+        position: static !important;
+        padding: 5px 0;
+        text-align: center;
+
+        span {
+            display: inline-block;
+        }
+    }
+}
+
+th, td {
+    &.fit-content {
+        width: 1%;
+        white-space: nowrap;
+
+        form, button, a {
+            margin-right: 3px;
+            display: inline-block;
+        }
+    }
+
+    &.sortable {
+        cursor: pointer;
+
+        &.sort-asc::after {
+            font-family: FontAwesome;
+            content: " \f0de";
+        }
+
+        &.sort-desc::after {
+            font-family: FontAwesome;
+            content: " \f0dd";
+        }
+    }
+}
+
+.pagination-limit {
+    .select-limit {
+        float: left;
+    }
+
+    .pagination {
+        margin-top: 0;
+        float: right;
+    }
+}
+
+.btn-group {
+    margin-bottom: 5px;
+}
+
+.menu-management {
+    .icon-preview {
+        width: 10%;
+    }
+
+    table {
+        .number {
+            width: 5%;
+        }
+
+        .name {
+            width: 20%;
+        }
+
+        .link {
+            width: 35%;
+        }
+
+        .show-menu {
+            width: 10%;
+        }
+
+        .actions {
+            width: 30%;
+        }
+    }
+}

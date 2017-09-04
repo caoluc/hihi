@@ -1,0 +1,40 @@
+<?php
+
+return [
+    'title' => 'User Management',
+    'label' => [
+        'list' => 'List User',
+        'actions' => 'Actions',
+        'add' => 'Add User',
+        'edit' => 'Edit',
+        'delete' => 'Delete',
+        'restore' => 'Restore',
+        'search' => 'Search',
+        'sort_by' => 'Sort By',
+        'no_users' => 'No users found!',
+        'name' => 'Name',
+        'email' => 'Email',
+        'per_page' => 'Per Page',
+        'role' => 'Role',
+        'password' => 'Password',
+        'create_user' => 'Create User',
+        'edit_user' => 'Edit User',
+    ],
+    'messages' => [
+        'error_404' => 'User not found!',
+        'delete_confirm' => 'Are You Sure You Want To Delete?',
+        'delete_success' => 'Delete Success!',
+        'delete_fail' => 'Error when deleting user!',
+        'restore_confirm' => 'Are You Sure You Want To Restore?',
+        'restore_success' => 'Restore Success!',
+        'restore_fail' => 'Error when restoring user!',
+    ],
+    'orders' => [
+        'id_asc' => 'Join Date Ascending',
+        'id_desc' => 'Join Date Descending',
+        'name_asc' => 'Name Ascending',
+        'name_desc' => 'Name Descending',
+        'email_asc' => 'Email Ascending',
+        'email_desc' => 'Email Descending',
+    ],
+];

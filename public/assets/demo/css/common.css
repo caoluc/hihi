@@ -1,0 +1,31 @@
+a:focus, input:focus {
+  outline: none;
+  outline-offset: 0; }
+
+a:hover, a:focus {
+  text-decoration: none; }
+
+ul, li {
+  list-style: outside none none; }
+
+ol, ul {
+  padding-left: 0;
+  margin-bottom: 0; }
+
+::-webkit-input-placeholder {
+  color: #000; }
+
+::-moz-placeholder {
+  color: #000; }
+
+::-moz-placeholder {
+  color: #000; }
+
+::-ms-input-placeholder {
+  color: #000; }
+
+input[type="file"]:focus, input[type="checkbox"]:focus, input[type="radio"]:focus {
+  outline: none;
+  outline-offset: 0; }
+
+/*# sourceMappingURL=common.css.map */

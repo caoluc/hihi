@@ -1,0 +1,19 @@
+deploy:
+  rocketeer:
+    image: fdplugins/ssh-php
+    when:
+      branch: develop
+    commands:
+      - php rocketeer.phar deploy --on="staging" --stage=staging --no-interaction
+  rocketeer:
+    image: fdplugins/ssh-php
+    when:
+      branch: master
+    commands:
+      - php rocketeer.phar deploy --on="production" --stage=production --branch=master --no-interaction
+notify:
+  chatwork:
+    image: fdplugins/chatwork
+    room_id: 43386515
+    token: $$CHATWORK_TOKEN
+    format: "[info][title]{repo.owner}/{repo.name}#{build.commit} {build.status}[/title]Branch: {build.branch}\r\nAuthor: {build.author}\r\nMessage: {build.message}\r\n{system.link_url}/{repo.full_name}/{build.number}[/info]"

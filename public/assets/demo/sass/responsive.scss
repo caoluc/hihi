@@ -1,0 +1,344 @@
+/*   1.HD devices Desktops        ( Devices =1450px)
+ *   1.Large devices Desktops     (1200px = Devices = 1400px)
+ *   2.Medium devices Desktops    (980px =  Devices  = 1024px)
+ *   3.Small devices Tablets      (767px =  Devices  = 979px)
+ *   4.Extra small devices Phones ( Devices <767px)
+ */
+
+ /* 1.HD devices Desktops  
+================================================== */
+@media (min-width: 1450px) {
+    .column-left {
+        width: calc(100% - 500px);
+    }
+    .detail-right {
+        width: 500px;
+    }
+    .ic-close {
+        display: none;
+    }
+}
+
+/* 2.Large devices Desktops 
+================================================== */
+@media (min-width: 1200px) and (max-width: 1449px) {
+    .column-left {
+        width: calc(100% - 500px);
+    }
+    .detail-right {
+        width: 500px;
+    }
+    .ic-close {
+        display: none;
+    }
+}
+
+/* 3.Medium devices Desktops 
+================================================== */
+@media (min-width: 980px) and (max-width: 1199px) {
+    .column-left {
+        width: calc(100% - 500px);
+    }
+    .detail-right {
+        width: 500px;
+    }
+    .ic-close {
+        display: none;
+    }
+}
+
+/* 4.Small devices Tablets
+================================================== */
+@media (min-width: 768px) and (max-width: 979px) {
+    .tb-logo, .top-links {
+        display: none;
+    }
+    .title-home {
+        h3 {
+            background-position: center center;
+            color: transparent;
+        }
+    }
+    .tb-menu {
+        padding: 0 10px;
+        .menuLabel {
+            margin: 0;
+        }
+        .menu {
+            width: 140px;
+        }
+    }
+    .link {
+        width: 100%;
+    }
+    .item-left {
+        padding-left: 5px;
+    }
+    .slick-slide {
+        width: 160px;
+    }
+    .column-left {
+        width: 100%;
+    }
+    .tb-news {
+        .box-info {
+            font-size: 11px;
+            padding: 10px 5px 5px;
+            .item-broad {
+                margin-top: 0;
+            }
+        }
+    }
+    .title-home {
+        left: 0;
+        margin: 0 auto;
+        padding: 0;
+        position: fixed;
+        right: 0;
+        text-align: center;
+        top: 0;
+        width: 100px;
+        z-index: 99;
+        h3 {
+            height: 32px;
+            padding-left: 0;
+        }
+    }
+    .box-button {
+        margin: 10px 0;
+    }
+    .item-left {
+        padding-top: 5px;
+    }
+    .detail-right {
+        padding: 0 5px;
+        position: absolute;
+        width: 100%;
+        z-index: 99;
+        .main-detail {
+            padding: 40px 5px 5px;
+        }
+        .box-broadcast {
+            line-height: 17px;
+        }
+        .comment-left {
+            margin-right: 2%;
+            width: 5%;
+        }
+        .comment-right {
+            width: 93%;
+        }
+        .box-trailer {
+            .item-inner {
+                margin: 0 5px 0 0;
+            }
+        }
+    }
+    .mobile-detail-hidden {
+        display: none;
+    }
+}
+
+/* 5.Extra small devices Phones
+================================================== */
+@media (max-width: 767px){
+    .tb-logo, .top-links {
+        display: none;
+    }
+    .title-home {
+        h3 {
+            background-position: center center;
+            color: transparent;
+        }
+    }
+    .tb-menu {
+        padding: 0;
+        .menuLabel {
+            margin: 0 15px;
+        }
+        .menu {
+            width: 100%;
+        }
+    }
+    .link {
+        width: 100%;
+    }
+    .item-left {
+        padding-left: 5px;
+    }
+    .slick-slide {
+        width: 160px;
+    }
+    .column-left {
+        width: 100%;
+    }
+    .tb-news {
+        .box-info {
+            font-size: 11px;
+            padding: 10px 5px 5px;
+            .item-broad {
+                margin-top: 0;
+            }
+        }
+    }
+    .title-home {
+        left: 0;
+        margin: 0 auto;
+        padding: 0;
+        position: fixed;
+        right: 0;
+        text-align: center;
+        top: 0;
+        width: 100px;
+        z-index: 99;
+        h3 {
+            height: 32px;
+            padding-left: 0;
+        }
+    }
+    .box-button {
+        margin: 10px 0;
+    }
+    .item-left {
+        padding-top: 5px;
+    }
+    .detail-right {
+        padding: 0 5px;
+        position: absolute;
+        width: 100%;
+        z-index: 99;
+        .main-detail {
+            padding: 40px 5px 5px;
+        }
+        .box-broadcast {
+            line-height: 18px;
+        }
+        .title-broadcast {
+            min-width: 70px;
+        }
+        .comment-left {
+            margin-right: 2%;
+            width: 8%;
+        }
+        .comment-right {
+            width: 90%;
+        }
+        .box-trailer {
+            .item-inner {
+                margin: 0 5px 0 0;
+            }
+        }
+    }
+    .mobile-detail-hidden {
+        display: none;
+    }
+}
+
+/* 6.Small devices Phones
+================================================== */
+@media (max-width: 479px){
+    .tb-logo, .top-links {
+        display: none;
+    }
+    .title-home {
+        h3 {
+            background-position: center center;
+            color: transparent;
+        }
+    }
+    .tb-menu {
+        padding: 0;
+        .menuLabel {
+            margin: 0 15px;
+        }
+        .menu {
+            width: 100%;
+        }
+    }
+    .link {
+        width: 100%;
+    }
+    .item-left {
+        padding-left: 5px;
+    }
+    .slick-slide {
+        width: 110px;
+    }
+    .column-left {
+        width: 100%;
+    }
+    .tb-news {
+        .box-info {
+            font-size: 11px;
+            padding: 10px 5px 5px;
+            .item-broad {
+                margin-top: 0;
+            }
+        }
+    }
+    .title-home {
+        left: 0;
+        margin: 0 auto;
+        padding: 0;
+        position: fixed;
+        right: 0;
+        text-align: center;
+        top: 0;
+        width: 100px;
+        z-index: 99;
+        h3 {
+            height: 32px;
+            padding-left: 0;
+        }
+    }
+    .box-button {
+        margin: 10px 0;
+    }
+    .item-left {
+        padding-top: 5px;
+    }
+    .detail-right {
+        padding: 0 5px;
+        position: absolute;
+        width: 100%;
+        z-index: 9;
+        .main-detail {
+            padding: 40px 5px 5px;
+        }
+        .box-broadcast {
+            line-height: 18px;
+        }
+        .title-broadcast {
+            min-width: 55px;
+        }
+        .comment-left {
+            margin-right: 2%;
+            width: 11%
+        }
+        .comment-right {
+            width: 87%;
+        }
+        .box-trailer {
+            .item-inner {
+                margin: 0 5px 0 0;
+            }
+        }
+        .row-news {
+            .content-new {
+                clear: both;
+            }
+        }
+    }
+    .cast-left {
+        margin-right: 0;
+        width: 100%;
+    }
+    .cast-right {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .mobile-detail-hidden {
+        display: none;
+    }
+    
+}
