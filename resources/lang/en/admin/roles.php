@@ -17,5 +17,6 @@ return [
     'permissions' => [
         'users' => 'Users',
         'roles' => 'Roles',
+        'network' => 'Network',
     ],
 ];

@@ -50,6 +50,22 @@
                     </li>
                 </ul>
             </li>
+            <li class="treeview {{ set_active(['admin/networks*']) }}">
+                <a href="javascript:;">
+                    <i class="fa fa-wrench"></i>
+                    <span>{!! trans('admin/networks.title') !!}</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li class="{{ set_active(['admin/networks']) }}">
+                        <a href="{!! action('Admin\NetworksController@index') !!}">
+                            <i class="fa fa-list"></i> {!! trans('admin/networks.label.list') !!}
+                        </a>
+                    </li>
+                </ul>
+            </li>
         </ul>
     </section>
 </aside>

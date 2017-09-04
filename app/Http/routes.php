@@ -32,5 +32,7 @@ Route::group(['prefix' => 'admin', 'namespace' => 'Admin', 'middleware' => ['web
         Route::resource('roles', 'RolesController');
         Route::get('roles/change-permission/{role}', 'RolesController@getChangePermission');
         Route::post('roles/change-permission/{role}', 'RolesController@postChangePermission');
+
+        Route::resource('networks', 'NetworksController');
     });
 });

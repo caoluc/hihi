@@ -13,5 +13,12 @@ return [
             'role.edit',
             'role.list',
         ],
+        'networks' => [
+            'network.read',
+            'network.list',
+            'network.add',
+            'network.edit',
+            'network.delete',
+        ],
     ],
 ];
